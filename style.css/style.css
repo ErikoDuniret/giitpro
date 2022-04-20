@@ -1,8 +1,8 @@
 p {
-    animation: rotation 5ms infinite;
+    animation: rotation 3s infinite;
     color:crimson;
     background-color:blue;
-    background-image: url('Lemon_Sole_4-scaled-e1599690486470.jpg');
+    background-image: url('th.jpg');
     background-size:cover ;
     background-repeat: no-repeat;
     font-size: 50px; 
@@ -18,7 +18,7 @@ a {
     text-shadow: 5px 5px 15px rgb(141, 1, 99);
     color: rgb(255, 1, 255);
     transition: 1s;
-    
+    font-family: verdana,sans-serif;
 }
 a:hover{
     color:rgb(230, 70, 70);
