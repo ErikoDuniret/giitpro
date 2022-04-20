@@ -1,0 +1,12 @@
+p {
+    color:crimson;
+    background-color:blue;
+    background-image: url('Lemon_Sole_4-scaled-e1599690486470.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    font-size: 50px; 
+    padding: 500px;
+    margin: 50px;
+    border: solid 5px darkorange;
+    box-shadow: 10px 10px 10px black
+}
