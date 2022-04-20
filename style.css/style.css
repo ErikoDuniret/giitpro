@@ -1,12 +1,34 @@
 p {
+    animation: rotation 5ms infinite;
     color:crimson;
     background-color:blue;
     background-image: url('Lemon_Sole_4-scaled-e1599690486470.jpg');
     background-size:cover ;
     background-repeat: no-repeat;
     font-size: 50px; 
-    padding: 500px;
-    margin: 50px;
+    padding: 50px;
     border: solid 5px darkorange;
-    box-shadow: 10px 10px 10px black
+    box-shadow: 10px 10px 10px black;
+    margin: 50px auto;
+    border-radius: 50px;
+    text-shadow:0 0 15px orange ;
+
+}
+a {
+    text-shadow: 5px 5px 15px rgb(141, 1, 99);
+    color: rgb(255, 1, 255);
+    transition: 1s;
+    
+}
+a:hover{
+    color:rgb(230, 70, 70);
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
