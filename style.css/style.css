@@ -12,6 +12,7 @@
     margin: 50px auto;
     border-radius: 50px;
     text-shadow:0 0 15px orange ;
+    width: min-content
 
 
 }
