@@ -1,4 +1,4 @@
-p {
+.para1 {
     animation: rotation 3s infinite;
     color:crimson;
     background-color:blue;
@@ -13,7 +13,13 @@ p {
     border-radius: 50px;
     text-shadow:0 0 15px orange ;
 
+
 }
+
+.para2 {
+    color:crimson;
+}
+
 a {
     text-shadow: 5px 5px 15px rgb(141, 1, 99);
     color: rgb(255, 1, 255);
