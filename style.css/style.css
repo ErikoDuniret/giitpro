@@ -9,16 +9,41 @@
     padding: 50px;
     border: solid 5px darkorange;
     box-shadow: 10px 10px 10px black;
-    margin: 50px auto;
+    margin: 50px 0px;
     border-radius: 50px;
     text-shadow:0 0 15px orange ;
     width: min-content
-
+    
 
 }
 
+
 .para2 {
     color:crimson;
+}
+
+.conteneur {
+    width:90% ;
+    height: 500px;
+    border: solid 5px black;
+    display:flex ; 
+
+}
+
+#rouge{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+#bleu{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 255);
+}
+#rouge{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 0);
 }
 
 a {
