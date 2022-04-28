@@ -13,7 +13,7 @@
     border-radius: 50px;
     text-shadow:0 0 15px orange ;
     width: min-content
-    
+     
 
 }
 
@@ -26,24 +26,31 @@
     width:90% ;
     height: 500px;
     border: solid 5px black;
-    display:flex ; 
-
+    display:flex ;
+    flex-direction:row ; 
+    justify-content:space-around;
+    align-items:center ; 
+    /* flex-shrink: ; */
+    
 }
 
-#rouge{
+#rouge{                
     width: 100px;
     height: 100px;
     background-color: rgb(255, 0, 0);
+    flex-grow:1 ;
 }
 #bleu{
     width: 100px;
     height: 100px;
     background-color: rgb(0, 0, 255);
+    flex-grow:2 ;
 }
-#rouge{
+#jaune{
     width: 100px;
     height: 100px;
     background-color: rgb(255, 255, 0);
+    flex-grow:1 ;
 }
 
 a {
@@ -52,6 +59,12 @@ a {
     transition: 2s;
     font-family: verdana,sans-serif;
 }
+
+.para1:hover{
+    animation: rotation 2s 1;
+    animation: scale 1s 1;
+}
+
 a:hover{
     color:rgb(230, 70, 70);
 }
@@ -64,3 +77,13 @@ a:hover{
         transform: rotate(360deg);
     }
 }
+
+@keyframes scale {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
+
