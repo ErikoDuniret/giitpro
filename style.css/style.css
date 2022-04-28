@@ -17,7 +17,7 @@ p {
 a {
     text-shadow: 5px 5px 15px rgb(141, 1, 99);
     color: rgb(255, 1, 255);
-    transition: 1s;
+    transition: 2s;
     font-family: verdana,sans-serif;
 }
 a:hover{
